@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5CB67461B57D32A00350DA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB67451B57D32A00350DA6 /* main.m */; };
+		B5CB67491B57D32A00350DA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB67481B57D32A00350DA6 /* AppDelegate.m */; };
+		B5CB674C1B57D32A00350DA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB674B1B57D32A00350DA6 /* ViewController.m */; };
+		B5CB674F1B57D32A00350DA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CB674D1B57D32A00350DA6 /* Main.storyboard */; };
+		B5CB67511B57D32A00350DA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CB67501B57D32A00350DA6 /* Images.xcassets */; };
+		B5CB67541B57D32A00350DA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CB67521B57D32A00350DA6 /* LaunchScreen.xib */; };
+		B5CB67601B57D32B00350DA6 /* helloAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB675F1B57D32B00350DA6 /* helloAnimationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5CB675A1B57D32A00350DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5CB67381B57D32A00350DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5CB673F1B57D32A00350DA6;
+			remoteInfo = helloAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5CB67401B57D32A00350DA6 /* helloAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CB67441B57D32A00350DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CB67451B57D32A00350DA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5CB67471B57D32A00350DA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5CB67481B57D32A00350DA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5CB674A1B57D32A00350DA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5CB674B1B57D32A00350DA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5CB674E1B57D32A00350DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5CB67501B57D32A00350DA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5CB67531B57D32A00350DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5CB67591B57D32A00350DA6 /* helloAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CB675E1B57D32B00350DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CB675F1B57D32B00350DA6 /* helloAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloAnimationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5CB673D1B57D32A00350DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CB67561B57D32A00350DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5CB67371B57D32A00350DA6 = {
+			isa = PBXGroup;
+			children = (
+				B5CB67421B57D32A00350DA6 /* helloAnimation */,
+				B5CB675C1B57D32A00350DA6 /* helloAnimationTests */,
+				B5CB67411B57D32A00350DA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5CB67411B57D32A00350DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5CB67401B57D32A00350DA6 /* helloAnimation.app */,
+				B5CB67591B57D32A00350DA6 /* helloAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5CB67421B57D32A00350DA6 /* helloAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B5CB67471B57D32A00350DA6 /* AppDelegate.h */,
+				B5CB67481B57D32A00350DA6 /* AppDelegate.m */,
+				B5CB674A1B57D32A00350DA6 /* ViewController.h */,
+				B5CB674B1B57D32A00350DA6 /* ViewController.m */,
+				B5CB674D1B57D32A00350DA6 /* Main.storyboard */,
+				B5CB67501B57D32A00350DA6 /* Images.xcassets */,
+				B5CB67521B57D32A00350DA6 /* LaunchScreen.xib */,
+				B5CB67431B57D32A00350DA6 /* Supporting Files */,
+			);
+			path = helloAnimation;
+			sourceTree = "<group>";
+		};
+		B5CB67431B57D32A00350DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5CB67441B57D32A00350DA6 /* Info.plist */,
+				B5CB67451B57D32A00350DA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5CB675C1B57D32A00350DA6 /* helloAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5CB675F1B57D32B00350DA6 /* helloAnimationTests.m */,
+				B5CB675D1B57D32B00350DA6 /* Supporting Files */,
+			);
+			path = helloAnimationTests;
+			sourceTree = "<group>";
+		};
+		B5CB675D1B57D32B00350DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5CB675E1B57D32B00350DA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5CB673F1B57D32A00350DA6 /* helloAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CB67631B57D32B00350DA6 /* Build configuration list for PBXNativeTarget "helloAnimation" */;
+			buildPhases = (
+				B5CB673C1B57D32A00350DA6 /* Sources */,
+				B5CB673D1B57D32A00350DA6 /* Frameworks */,
+				B5CB673E1B57D32A00350DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloAnimation;
+			productName = helloAnimation;
+			productReference = B5CB67401B57D32A00350DA6 /* helloAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5CB67581B57D32A00350DA6 /* helloAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CB67661B57D32B00350DA6 /* Build configuration list for PBXNativeTarget "helloAnimationTests" */;
+			buildPhases = (
+				B5CB67551B57D32A00350DA6 /* Sources */,
+				B5CB67561B57D32A00350DA6 /* Frameworks */,
+				B5CB67571B57D32A00350DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5CB675B1B57D32A00350DA6 /* PBXTargetDependency */,
+			);
+			name = helloAnimationTests;
+			productName = helloAnimationTests;
+			productReference = B5CB67591B57D32A00350DA6 /* helloAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5CB67381B57D32A00350DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cpttm;
+				TargetAttributes = {
+					B5CB673F1B57D32A00350DA6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B5CB67581B57D32A00350DA6 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B5CB673F1B57D32A00350DA6;
+					};
+				};
+			};
+			buildConfigurationList = B5CB673B1B57D32A00350DA6 /* Build configuration list for PBXProject "helloAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5CB67371B57D32A00350DA6;
+			productRefGroup = B5CB67411B57D32A00350DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5CB673F1B57D32A00350DA6 /* helloAnimation */,
+				B5CB67581B57D32A00350DA6 /* helloAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5CB673E1B57D32A00350DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CB674F1B57D32A00350DA6 /* Main.storyboard in Resources */,
+				B5CB67541B57D32A00350DA6 /* LaunchScreen.xib in Resources */,
+				B5CB67511B57D32A00350DA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CB67571B57D32A00350DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5CB673C1B57D32A00350DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CB674C1B57D32A00350DA6 /* ViewController.m in Sources */,
+				B5CB67491B57D32A00350DA6 /* AppDelegate.m in Sources */,
+				B5CB67461B57D32A00350DA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CB67551B57D32A00350DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CB67601B57D32B00350DA6 /* helloAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5CB675B1B57D32A00350DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5CB673F1B57D32A00350DA6 /* helloAnimation */;
+			targetProxy = B5CB675A1B57D32A00350DA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5CB674D1B57D32A00350DA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CB674E1B57D32A00350DA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5CB67521B57D32A00350DA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CB67531B57D32A00350DA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5CB67611B57D32B00350DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5CB67621B57D32B00350DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5CB67641B57D32B00350DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = helloAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5CB67651B57D32B00350DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = helloAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5CB67671B57D32B00350DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = helloAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloAnimation.app/helloAnimation";
+			};
+			name = Debug;
+		};
+		B5CB67681B57D32B00350DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = helloAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloAnimation.app/helloAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5CB673B1B57D32A00350DA6 /* Build configuration list for PBXProject "helloAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CB67611B57D32B00350DA6 /* Debug */,
+				B5CB67621B57D32B00350DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CB67631B57D32B00350DA6 /* Build configuration list for PBXNativeTarget "helloAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CB67641B57D32B00350DA6 /* Debug */,
+				B5CB67651B57D32B00350DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5CB67661B57D32B00350DA6 /* Build configuration list for PBXNativeTarget "helloAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CB67671B57D32B00350DA6 /* Debug */,
+				B5CB67681B57D32B00350DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5CB67381B57D32A00350DA6 /* Project object */;
+}

@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
-
+{
+    NSMutableArray *calender_db;
+    int date_temp;
+    UIView *a;
+    UIView *b;
+}
 @end
 

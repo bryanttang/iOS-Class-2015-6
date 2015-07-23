@@ -14,6 +14,7 @@
 		B5CB66B51B4E901700350DA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CB66B41B4E901700350DA6 /* Images.xcassets */; };
 		B5CB66B81B4E901700350DA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CB66B61B4E901700350DA6 /* LaunchScreen.xib */; };
 		B5CB66C41B4E901700350DA6 /* helloconverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB66C31B4E901700350DA6 /* helloconverterTests.m */; };
+		B5CB66CF1B4E957D00350DA6 /* calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB66CE1B4E957D00350DA6 /* calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B5CB66BD1B4E901700350DA6 /* helloconverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloconverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CB66C21B4E901700350DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5CB66C31B4E901700350DA6 /* helloconverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloconverterTests.m; sourceTree = "<group>"; };
+		B5CB66CD1B4E957D00350DA6 /* calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculator.h; sourceTree = "<group>"; };
+		B5CB66CE1B4E957D00350DA6 /* calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				B5CB66AC1B4E901700350DA6 /* AppDelegate.m */,
 				B5CB66AE1B4E901700350DA6 /* ViewController.h */,
 				B5CB66AF1B4E901700350DA6 /* ViewController.m */,
+				B5CB66CD1B4E957D00350DA6 /* calculator.h */,
+				B5CB66CE1B4E957D00350DA6 /* calculator.m */,
 				B5CB66B11B4E901700350DA6 /* Main.storyboard */,
 				B5CB66B41B4E901700350DA6 /* Images.xcassets */,
 				B5CB66B61B4E901700350DA6 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5CB66B01B4E901700350DA6 /* ViewController.m in Sources */,
+				B5CB66CF1B4E957D00350DA6 /* calculator.m in Sources */,
 				B5CB66AD1B4E901700350DA6 /* AppDelegate.m in Sources */,
 				B5CB66AA1B4E901700350DA6 /* main.m in Sources */,
 			);

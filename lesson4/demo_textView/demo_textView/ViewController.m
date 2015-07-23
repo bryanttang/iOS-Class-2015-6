@@ -18,6 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    NSMutableArray *a = [[NSMutableArray alloc] initWithObjects:@"asd", nil];
+    [a addObject:@"a"];
+    [a removeObject:@"a"];
+    
     
 }
 
@@ -31,7 +35,7 @@
 //        
 //    }];
     
-    [UIView animateWithDuration:0.6 delay:0.0 usingSpringWithDamping:0.1 initialSpringVelocity:9.0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+    [UIView animateWithDuration:0.8 delay:0.0 usingSpringWithDamping:0.2 initialSpringVelocity:10.0 options:UIViewAnimationOptionCurveEaseIn animations:^{
         textView.transform = CGAffineTransformMakeTranslation(0, -100);
         
     } completion:^(BOOL finished) {
