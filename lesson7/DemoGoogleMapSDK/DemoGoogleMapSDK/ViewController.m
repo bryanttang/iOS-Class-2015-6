@@ -23,7 +23,7 @@
     // coordinate -33.86,151.20 at zoom level 6.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
                                                             longitude:151.20
-                                                                 zoom:6];
+                                                                 zoom:10];
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView_.myLocationEnabled = YES;
     self.view = mapView_;
@@ -35,11 +35,48 @@
     marker.snippet = @"Australia";
     marker.map = mapView_;
     
+   
+    GMSMutablePath *path = [GMSMutablePath path];
+    [path addCoordinate:CLLocationCoordinate2DMake(-33.90, 151.00)];
+    [path addCoordinate:CLLocationCoordinate2DMake(-33.90, 151.40)];
+    [path addCoordinate:CLLocationCoordinate2DMake(-33.70, 151.40)];
+    [path addCoordinate:CLLocationCoordinate2DMake(-33.70, 151.00)];
+    [path addCoordinate:CLLocationCoordinate2DMake(-33.90, 151.00)];
+    
+    GMSPolyline *rectangle = [GMSPolyline polylineWithPath:path];
+    rectangle.map = mapView_;
+    
+    
+    mapView_.settings.consumesGesturesInView = NO;
+    
+    UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(respondsToLongPress:)];
+    
+    [mapView_ addGestureRecognizer:longPress];
+    
+    
+    
+}
+
+
+- (void) respondsToLongPress:(UILongPressGestureRecognizer*) recoginzer{
+
+    if (recoginzer.state == UIGestureRecognizerStateBegan) {
+        CGPoint finger_point = [recoginzer locationInView:mapView_];
+        CLLocationCoordinate2D finger_coord = [mapView_.projection coordinateForPoint: finger_point];
+        GMSMarker *marker = [[GMSMarker alloc] init];
+        marker.position = finger_coord;   //CLLocationCoordinate2DMake(-33.86, 151.20);
+        marker.title = @"Me";
+        marker.snippet = @"Hey!";
+        marker.map = mapView_;
+        
+    }
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+
 }
 
 @end
